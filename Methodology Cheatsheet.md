@@ -27,7 +27,11 @@ https://github.com/Tib3rius/AutoRecon
 https://github.com/sullo/nikto
 
 ### dirsearch
-https://github.com/maurosoria/dirsearch
+
+### gobuster
+```sh
+gobuster -u <url> -w /opt/SecLists/Discovery/DNS/subdomains-top1million-110000.txt
+```
 
 ### wfuzz
 https://github.com/xmendez/wfuzz
